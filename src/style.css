@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css);
+
+body {
+    background-color: #e0e3e8;
+    font-family: "Rubik", sans-serif;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+/* -----Search-filter */
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #475f7b;
+    background-color: #fff;
+    border: 1px solid #dfe3e7;
+    border-radius: 0.267rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+    color: #475f7b;
+    background-color: #fff;
+    border-color: #5a8dee;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+.card {
+     box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #475f7b;
+    overflow: hidden;
+}
+.table-filter-info{
+  padding : 15px;
+}
+.thead-primary tr th {
+    background-color: #5a8dee;
+    border-color: #5a8dee;
+    color: #fff;
+}
+.dt-pagination-ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  padding-left: 0;
+  border-top: 1px solid #dee2e6;
+  padding-top : 15px;
+}
+
+.dt-pagination .dt-item {
+    display: inline-block;
+}
+
+.dt-pagination .dt-item .dt-link {
+    padding: 6px 8px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 8px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8A93A6;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dt-pagination .dt-item .dt-link:hover {
+    background-color: #ebf2fd;
+    color: #5a8dee;
+}
+
+.dt-pagination .dt-item.disabled .dt-link {
+    background-color: #F6F7FB;
+    color: #D7DAE0;
+  cursor: not-allowed;
+}
+
+.dt-pagination .dt-item:first-child .dt-link, .dt-pagination .dt-item:last-child .dt-link {
+    background-color: #F6F7FB;
+}
+
+.dt-pagination .dt-item.active .dt-link {
+    background-color: #5a8dee;
+    border-color: #5a8dee;
+    color: #fff;
+}
